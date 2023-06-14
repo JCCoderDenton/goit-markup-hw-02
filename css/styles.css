@@ -1,7 +1,7 @@
 @media screen and (max-width:1980px) { 
     .upper-line{
         position: absolute;
-        width: 123.75em;
+        width: 99.9%;
         height: 5em;
         left: 0em;
         top: 0em;
@@ -12,7 +12,7 @@
 @media screen and (max-width:480px)  { 
     .upper-line{
         position: absolute;
-        width: 30em;
+        width: 99.9%;
         height: 1em;
         left: 0em;
         top: 0em;
