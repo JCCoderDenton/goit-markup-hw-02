@@ -1,5 +1,16 @@
-@media (min-width:320px)  { 
-    #upper-line{
+@media screen and (max-width:1980px) { 
+    .upper-line{
+        position: absolute;
+        width: 120em;
+        height: 20%;
+        left: 0px;
+        top: 0px;
+        border: 1px solid #ECECEC;
+        background: #ff0000;
+    }
+}
+@media screen and (max-width:480px)  { 
+    .upper-line{
         position: absolute;
         width: 120em;
         height: 20%;
@@ -9,17 +20,7 @@
         background: #000000;
     }
 }
-@media (min-width:1281px) { 
-    #upper-line{
-        position: absolute;
-        width: 120em;
-        height: 20%;
-        left: 0px;
-        top: 0px;
-        border: 1px solid #ECECEC;
-        background: #FFFFFF;
-    }
-}
+
 
 #font{
     font-family: 'Roboto';
