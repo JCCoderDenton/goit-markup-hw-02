@@ -1,23 +1,23 @@
 @media screen and (max-width:1980px) { 
     .upper-line{
         position: absolute;
-        width: 120em;
-        height: 20%;
-        left: 0px;
-        top: 0px;
+        width: 123.75em;
+        height: 5em;
+        left: 0em;
+        top: 0em;
         border: 1px solid #ECECEC;
-        background: #ff0000;
+        background: #ffffff;
     }
 }
 @media screen and (max-width:480px)  { 
     .upper-line{
         position: absolute;
-        width: 120em;
-        height: 20%;
+        width: 30em;
+        height: 1em;
         left: 0px;
         top: 0px;
         border: 1px solid #ECECEC;
-        background: #000000;
+        background: #ffffff;
     }
 }
 
