@@ -1,4 +1,4 @@
-@media screen and (min-width:1281px) { 
+@media screen and (min-width:1280px) { 
     .upper-line{
         position: absolute;
         width: 99.9%;
@@ -8,14 +8,7 @@
         border: 1px solid #ECECEC;
         background: #ffffff;
     }
-    #hat{
-        position: absolute;
-        width: 100%;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-        background: #2F303A;
-    }
+   
     #hat-button{
         position: absolute;
         width: 13.5em;
@@ -48,25 +41,44 @@
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    #main-button{
+        position: absolute;
+        width: 145px;
+        height: 31px;
+        left: 15em;        
+        top: 24px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+    #menu-nav{
+        position: absolute;
+        width: 281px;
+        height: 16px;
+        left: 53em;
+        top: 32px;
+    }
+    #contact-upper-line{
+        position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+    }
 }
-@media screen and (min-width:480px)  { 
+@media screen and (min-width:320px) and (max-width:480px) { 
     .upper-line{
         position: absolute;
-        width: 30em;
+        width: 100%;
         height: 1em;
         left: 0em;
         top: 0em;
         border: 1px solid #ECECEC;
-        background: #ffffff;
+        background: red;
     }
-    #hat{
-        position: absolute;
-        width: 30em;
-        height: 10em;
-        left: 0px;
-        top: 80px;
-        background: #2F303A;
-    }
+
     #hat-button{
         position: absolute;
         width: 216px;
@@ -100,36 +112,15 @@
         color: #FFFFFF;
     }
 }
-
-
 body{
     font-family: 'Roboto';
     font-style: normal;
 }
-#main-button{
+#hat{
     position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 15em;        
-    top: 24px;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+    width: 100%;
+    height: 20%;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
 }
-#menu-nav{
-    position: absolute;
-    width: 281px;
-    height: 16px;
-    left: 53em;
-    top: 32px;
-}
-#contact-upper-line{
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-}
-
