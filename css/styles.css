@@ -14,8 +14,8 @@
         position: absolute;
         width: 30em;
         height: 1em;
-        left: 0px;
-        top: 0px;
+        left: 0em;
+        top: 0em;
         border: 1px solid #ECECEC;
         background: #ffffff;
     }
@@ -30,7 +30,7 @@
     position: absolute;
     width: 145px;
     height: 31px;
-   /* left: 12%; */          left: 15em;        
+    left: 15em;        
     top: 24px;
     font-weight: 700;
     font-size: 26px;
@@ -42,7 +42,7 @@
     position: absolute;
     width: 281px;
     height: 16px;
-    /*left: 24%;  */           left: 53em;
+    left: 53em;
     top: 32px;
 }
 #contact-upper-line{
