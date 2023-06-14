@@ -1,4 +1,4 @@
-@media screen and (max-width:1980px) { 
+@media screen and (min-width:1281px) { 
     .upper-line{
         position: absolute;
         width: 99.9%;
@@ -49,10 +49,10 @@
         color: #FFFFFF;
     }
 }
-@media screen and (max-width:480px)  { 
+@media screen and (min-width:480px)  { 
     .upper-line{
         position: absolute;
-        width: 99.9%;
+        width: 30em;
         height: 1em;
         left: 0em;
         top: 0em;
@@ -61,15 +61,15 @@
     }
     #hat{
         position: absolute;
-        width: 99.9%;
-        height: 600px;
+        width: 30em;
+        height: 10em;
         left: 0px;
         top: 80px;
         background: #2F303A;
     }
     #hat-button{
         position: absolute;
-        width: 216px;
+        width: 15em;
         height: 50px;
         left: 692px;
         top: 430px;
