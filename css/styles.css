@@ -332,24 +332,24 @@ h2{
     margin-bottom: 25px;
 }
 
-.main-pic-list li div{
+.main-pic-list li a div{
     text-align: left;
     margin: 24px; 
 }
-.main-pic-list li div a h3{
+.main-pic-list li a div h3{
     font-family: 'Roboto', sans-serif;
     color: var(--black-grey-color);
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1.08px; 
 }
-.main-pic-list li div a p{
+.main-pic-list li a div p{
     font-family: 'Roboto', sans-serif;
     color: var(--white-grey-color);
     font-size: 16px;
     letter-spacing: 0.48px; 
 }
-.main-pic-list li div a{
+.main-pic-list li a{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
